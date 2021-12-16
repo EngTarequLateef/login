@@ -1,0 +1,169 @@
+* {
+    direction: rtl;
+    box-sizing: border-box;
+    font-family: "NotoKufiArabic-VariableFont_wght", "Lateef-Regular", "NotoNaskhArabic-VariableFont_wght";
+    font-size: 1em;
+    text-size-adjust: auto;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --c-Tool: #feb236;
+    --c-side: #ffda6b;
+    --c-Back: #fff;
+    --c-Form: #efe8ab;
+    --c-upNav: #bcbe60;
+    --c-SubmitC: #60612f;
+    --c-SubBg: #cfad16;
+    --c-text: #4b1707;
+    --c-Shad: rgb(191 147 64);
+    --c-sideBorder: #60612f2f;
+    --c-arrowColor: #44a147;
+    --c-actionTool: #c27c21;
+    --v-heightDoor: 35%;
+}
+
+@font-face {
+    font-family: NotoKufiArabic-VariableFont_wght;
+    src: url(fonts/Noto_Kufi_Arabic/NotoKufiArabic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Lateef-Regular;
+    src: url(fonts/Lateef/Lateef-Regular.ttf);
+}
+
+@font-face {
+    font-family: NotoNaskhArabic-VariableFont_wght;
+    src: url(fonts/Noto_Naskh_Arabic/NotoNaskhArabic-VariableFont_wght.ttf);
+}
+
+.trq-inp-label {
+    background-color: var(--c-side);
+    border-radius: 10px;
+    box-shadow: rgb(104 77 27) 2px 5px 8px 2px;
+    font-family: inherit;
+    margin: 0 3%;
+    PADDING: 1vh;
+    text-shadow: 0px 0px 6px #c45c11;
+}
+
+.trq-inp-text {
+    border-radius: 10px;
+    margin: 5vh 0;
+    height: 7vh;
+    padding: 0 2vh;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.trq-inp-text:hover {
+    box-shadow: rgb(104 77 27) -1px 1px 1px 2px;
+    padding: 0 4vh;
+    outline: none;
+    border-color: var(--c-side);
+}
+
+.trq-upload-img {
+    display: inline-block;
+    width: 20%;
+    position: relative;
+}
+
+.trq-chk {
+    margin: 0 1vh;
+}
+
+.trq-chk label {
+    margin-right: 2vh;
+    text-shadow: 2px 1px var(--c-text);
+}
+
+.trq-chk input {
+    box-shadow: 2px 1px 3px 1px var(--c-text);
+}
+
+.trq-btn {
+    background-color: var(--c-Tool);
+    color: var(--c-SubmitC);
+    border-radius: 3vh 0;
+    margin: 5vh 5vh;
+    height: 7vh;
+    box-shadow: rgb(104 77 27) 2px 5px 8px 2px;
+    text-shadow: 2px 1px var(--c-text);
+}
+
+.trq-link {
+    color: var(--c-text);
+    font-weight: bold;
+    font-family: 'Lateef-Regular';
+}
+
+.trq-table {
+    border: 6px ridge var(--c-actionTool);
+    font-family: 'NotoNaskhArabic-VariableFont_wght';
+    position: relative;
+}
+
+.trq-table-head {
+    font-family: inherit;
+    background-color: blanchedalmond;
+    position: sticky;
+}
+
+.trq-head-tr {
+    font-family: inherit;
+    box-shadow: 0 2px 4px 2px var(--c-upNav);
+}
+
+.trq-th {
+    font-family: inherit;
+}
+
+.trq-table-body {
+    /* border-bottom: 2px solid red; */
+    background-color: var(--c-sideBorder);
+}
+
+.trq-body-tr {
+    border-bottom: 2px solid black;
+    box-shadow: 0px 2px 1px 1px var(--c-Shad);
+}
+/* .trq-body-tr:hover::before {
+    content: "اسم الأي حاجة";
+    width: auto;
+    height:auto;
+    position: absolute;
+    background-color: yellow;
+    right: -101px;
+}
+.trq-body-tr:hover::after {
+    content: "أي حاجة ثانية";
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-color: blue;
+    left: -96px;
+} */
+.trq-td {
+    box-shadow: 1px 3px 5px 2px var(--c-Shad);
+    width: 25%;
+}
+
+.trq-td img {
+    width: 20%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.trq-skill {}
+
+.precent {}
+
+
+.trq-table-td-select{
+    width: 4%;
+}

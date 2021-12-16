@@ -1,0 +1,58 @@
+.trq-parent {
+    display: grid;
+    height: 100vh;
+    background-color: var(--c-Back);
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto repeat(12, 1fr) auto;
+}
+
+.trq-parent .trq-logContent {
+    background-color: var(--c-Form);
+    grid-column: 5 / span 4;
+    grid-row: 3 / span 9;
+    border-radius: 10%;
+    box-shadow: var(--c-Shad) 7px 11px 12px 4px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding: 5vh 10vh;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+
+.trq-btn:hover {
+    box-shadow: rgb(104 77 27) -2px 1px 11px 0px;
+    color: var(--c-Tool);
+    background-color: var(--c-SubmitC);
+}
+
+.trq-chk input:hover {
+    box-shadow: none;
+}
+
+.trq-link:visited {
+    color: var(--c-Back);
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.trq-link:hover {
+    color: var(--c-Tool);
+}
+
+.fa-save:hover {
+    color: greenyellow;
+    text-shadow: 1px 1px 1vh black;
+}
+
+.fa-times:hover {
+    color: red;
+    text-shadow: 1px 1px 1vh black;
+}
+
+.fa-undo-alt:hover {
+    color: blue;
+    text-shadow: 1px 1px 1vh black;
+}
